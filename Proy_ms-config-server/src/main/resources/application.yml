@@ -55,5 +55,7 @@ spring:
 
 eureka:
   client:
-    enabled: false
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://ms-discovery:8701/eureka/
 

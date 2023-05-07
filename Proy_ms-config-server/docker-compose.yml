@@ -1,0 +1,16 @@
+services:
+  ms-config-server:
+    image: ms-config-server:1.0.0
+    restart: always
+    mem_limit: 400m
+    ports:
+      - "8888:8888"
+    volumes:
+      - C:\Users\Mirko Alarcon\Documents\UCB\I-2023\ArqSoftware\ProyectoMS\serv_conf\logs:/Users/Mirko Alarcon/Documents/UCB/I-2023/ArqSoftware/ProyectoMS/serv_conf/logs
+    networks:
+        - mrk27-network
+
+networks:
+    mrk27-network:
+      external: true
+

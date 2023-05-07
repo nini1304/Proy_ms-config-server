@@ -8,6 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient
 
 @SpringBootApplication
 @EnableConfigServer
+//comentario
 class ProyMsConfigServerApplication
 
 fun main(args: Array<String>) {
