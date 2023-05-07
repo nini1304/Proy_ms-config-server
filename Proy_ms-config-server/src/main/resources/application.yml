@@ -5,58 +5,55 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/nini1304/Proy_server-config.git
-          default-label: main
+          uri: git@github.com:nini1304/Proy_server-config.git
           ignoreLocalSshSettings: true
-          hostkey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDGEIGSjlcjpVr/FVVSIypcSVIjM3CUXfcdMduJt45tqMufBm/0sYBtHrYqylN4LYM7uMAXQ5GTZT5NaHaUb2JMlnu6Z7PPRY82eWhDnCf5GF63d+pnZmdF/Ljw7x9fIpitZ3XUZSsZmS3SHEHGAvdAcLD1N8KyU6WA5j4hTEuimPHr65KNarIMcp3ujNL9Q0O7F28HLLVyCAH06W6MPL7RRL1QVd+j0gEXbioTbWA/h+R7BnA9zKhY4hc1a1X+2C22/i5hc74A/W+5BB4PGsMUPcmOWIXiVs8e5jU45WmuUzTEiMLQfqfuMqd6pEhypKx9oe/7g+JhwXW+LIfBtp+C+JDi+IXfzj84RBDwEi8uN2ADO/NGbxw6ri4gmBzr68iz9Kp22ePv9wE3NOXSNyNlqnVSJ/yv8+hrpV//+Y5nBgX6BO+mKWgFmgMz4PMgvVDfqGI7wSkLw7ltFTppdJGuMiQPpYwBJvGskQkVyO6ZjBcdib36RTz0Y5FOVjANUWs= geral@DESKTOP-71UTI3R
+          hostkey: AAAAB3NzaC1yc2EAAAADAQABAAABgQCkmwi2V46kwpUiKwnJ5kmvSvy8A1dvOCrMhaNfBUnOdUE0HHQPNoQ0FBBNrHEtn17czY9dN+YGkcyexI+QbX6fOMaiFvCot0Yc5XmzuOP+4YEA+5OWu3aALYSAp94eCy5z7himDNXgcLlkIYzyF1ajGIa+Juae4pxLrE7bkJzOrA4ZMZSYmQUmUmwH2mO4MlTwbvlqkrIZIdfadxkdq8PE5iHZPVdJahi2OUoITtX96i6WK3mPH+LGXTWfSSFpwodWPXh8La9KdP/brBuLV8YHMO+BYKF6OmU3rQ0ywRArV2IHTssYrSFdDA5UvgsPeQCiJKd3YbMAh7ft03Vb5EdUfvT7dewpobRJ8zSzXKRLcbNUxx7ndxKQWCc6hCmGAgXigGi1mjY643h1wcEf5EA5vIsGRuqjYq5w6AsDdMhUfaApOCQD3+ukogpgGVd2OtIF4x+MoH5YCcMetOg0AhA+gRzsWYd625ILx+m1GzQBgFd0EbozgliybsOK0RBsnyU= geraldine.ibieta@ucb.edu.bo
           host-key-algorithm: ssh-rsa
           private-key: |
             -----BEGIN OPENSSH PRIVATE KEY-----
             b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
-            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
+            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
             -----END OPENSSH PRIVATE KEY-----
-            
-            
-
+          skip-ssl-validation: true
+          strict-host-key-checking: false
   application:
     name: ms-config-server
+
 eureka:
   client:
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:8710/eureka/
+    enabled: false
 
